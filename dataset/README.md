@@ -1,0 +1,3 @@
+# Dataset
+
+Due to the anonymity requirements of the submission process and the file size limitations on both the anonymous GitHub repository and OpenReview, we have only uploaded the smallest three datasets to facilitate reproducibility checks. These include NFCorpus, SciFact, and our newly collected and annotated dataset, NQ-UTD. Upon acceptance of the paper, we will make all datasets publicly available via HuggingFace, ensuring comprehensive access to our resources for the broader research community.
