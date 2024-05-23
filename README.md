@@ -117,6 +117,21 @@ To verify the downloaded files, you can use the command to generate an MD5 hash 
 ## Checkpoints
 We also provide some checkpoints trained with ``train_msmarco_v3.py`` in [BEIR]([https://github.com/beir-cellar/beir](https://github.com/beir-cellar/beir/blob/main/examples/retrieval/training/train_msmarco_v3.py)). Please see the following table:
 
+|                   Model                   |         PLM        | Pooling Srategy |                                    Website                                   |
+|:-----------------------------------------:|:------------------:|:---------------:|:----------------------------------------------------------------------------:|
+| bert-base-uncased-mean-v3-msmarco         | bert-base-uncased  |       mean      | https://huggingface.co/IR-Cocktail/bert-base-uncased-mean-v3-msmarco         |
+| bert-base-uncased-cls-v3-msmarco          | bert-base-uncased  |       cls       | https://huggingface.co/IR-Cocktail/bert-base-uncased-cls-v3-msmarco          |
+| bert-base-uncased-last-v3-msmarco         | bert-base-uncased  |       last      | https://huggingface.co/IR-Cocktail/bert-base-uncased-last-v3-msmarco         |
+| bert-base-uncased-max-v3-msmarco          | bert-base-uncased  |       max       | https://huggingface.co/IR-Cocktail/bert-base-uncased-max-v3-msmarco          |
+| bert-base-uncased-weightedmean-v3-msmarco | bert-base-uncased  |   weightedmean  | https://huggingface.co/IR-Cocktail/bert-base-uncased-weightedmean-v3-msmarco |
+| bert-mini-mean-v3-msmarco                 | bert-mini          |       mean      | https://huggingface.co/IR-Cocktail/bert-mini-mean-v3-msmarco                 |
+| bert-small-mean-v3-msmarco                | bert-small         |       mean      | https://huggingface.co/IR-Cocktail/bert-small-mean-v3-msmarco                |
+| bert-large-uncased-mean-v3-msmarco        | bert-large-uncased |       mean      | https://huggingface.co/IR-Cocktail/bert-large-uncased-mean-v3-msmarco        |
+| roberta-base-mean-v3-msmarco              | roberta-base       |       mean      | https://huggingface.co/IR-Cocktail/roberta-base-mean-v3-msmarco              |
+| robreta-base-cls-v3-msmarco               | roberta-base       |       cls       | https://huggingface.co/IR-Cocktail/roberta-base-cls-v3-msmarco               |
+| robreta-base-last-v3-msmarco              | roberta-base       |       last      | https://huggingface.co/IR-Cocktail/roberta-base-last-v3-msmarco              |
+| robreta-base-max-v3-msmarco               | roberta-base       |       max       | https://huggingface.co/IR-Cocktail/roberta-base-max-v3-msmarco               |
+| robreta-base-weightedmean-v3-msmarco      | roberta-base       |   weightedmean  | https://huggingface.co/IR-Cocktail/roberta-base-weightedmean-v3-msmarco      |
 
 ## Reference
 The Cocktail benchmark is built based on the following project:
