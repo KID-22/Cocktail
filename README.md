@@ -8,6 +8,7 @@
 ## Introduction
 Cocktail, a comprehensive benchmark designed to evaluate Information Retrieval (IR) models amidst the evolving landscape of AI-generated content (AIGC). In an era dominated by Large Language Models (LLMs), the traditional IR corpus, previously solely composed of human-written texts, has expanded to include a significant proportion of LLM-generated content. Cocktail emerges as a valuable resource to response to this transformation, aiming to provide a robust framework for assessing the performance and bias of IR models in handling mixed corpora in this LLM era.
 
+
 ## Features
 + **Comprehensive Dataset Collection**: Cocktail comprises 15 existing IR datasets in a standard format, diversified across a range of text retrieval tasks and domains, each enriched with an LLM-generated corpus using Llama2.
 
@@ -89,7 +90,7 @@ done
 Our evaluation tool is designed to support a variety of customized assessments, including the integration of corpora from different sources and the computation of metrics for specific target corpora. For personalized customization options, please refer to the code in our ``evaluate`` folder.
 
 ## Available Datasets
-All the 16 benchmarked datasets in Cocktail are listed in the following table.  
+All the 16 benchmarked datasets in Cocktail are listed in the following table and are available [here](https://huggingface.co/IR-Cocktail) at HuggingFace. 
 
 | Dataset       | Website                                                      | Cocktail-Name      | md5                                | Domain      | Relevancy | # Test Query | # Corpus |
 | ------------- | ------------------------------------------------------------ | ------------------ | ---------------------------------- | ----------- | --------- | ------------ | -------- |
@@ -111,14 +112,35 @@ All the 16 benchmarked datasets in Cocktail are listed in the following table.
 | NQ-UTD        | [Homepage](https://anonymous.4open.science/r/Cocktail-BA4B/) | `nq-utd`           | `2e12e66393829cd4be715718f99d2436` | Misc.       | 3-level   | 80           | 800      |
 
 
-
 To verify the downloaded files, you can use the command to generate an MD5 hash using Terminal: ``md5sum filename.zip``.
+
+## Checkpoints
+We also provide some checkpoints trained with ``train_msmarco_v3.py`` in [BEIR]([https://github.com/beir-cellar/beir](https://github.com/beir-cellar/beir/blob/main/examples/retrieval/training/train_msmarco_v3.py)). Please see the following table:
 
 
 ## Reference
 The Cocktail benchmark is built based on the following project:
 - [BEIR](https://github.com/beir-cellar/beir)
 - [Sentence Transformers](https://huggingface.co/sentence-transformers)
+
+
+## Citation
+If you find our benchmark or work useful for your research, please cite our work.
+```
+@article{cocktail,
+  title={Cocktail: A Comprehensive Information Retrieval Benchmark with LLM-Generated Documents Integration},
+  author={Dai, Sunhao and Liu, Weihao and Zhou, Yuqi and Pang, Liang and Ruan, Rongju and Wang, Gang and Dong, Zhenhua and Xu, Jun and Wen, Ji-Rong},
+  journal={Findings of the Association for Computational Linguistics: ACL 2024},
+  year={2024}
+}
+
+@article{dai2024neural,
+  title={Neural Retrievers are Biased Towards LLM-Generated Content},
+  author={Dai, Sunhao and Zhou, Yuqi and Pang, Liang and Liu, Weihao and Hu, Xiaolin and Liu, Yong and Zhang, Xiao and Wang, Gang and Xu, Jun},
+  journal={Proceedings of the 30th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},
+  year={2024}
+}
+```
 
 
 ## License
