@@ -14,7 +14,7 @@ Cocktail, a comprehensive benchmark designed to evaluate Information Retrieval (
 
 + **Up-to-Date Evaluation Dataset**: Introducing Natural Question Up-To-Date (NQ-UTD), a dataset featuring queries derived from the latest events, specifically designed to test the responsiveness of LLM-based IR models to new information not included in their pre-training data.
 
-+ **Easy-to-use Evaluation Tool**:  Cocktail includes a user-friendly evaluation tool, simplifying the process of assessing various IR models on the benchmarked dataset. This tool is designed with adaptability in mind, allowing for seamless integration of new models and datasets, thereby enabling researchers and developers to efficiently evaluate the performance and bias of their IR systems.
++ **Easy-to-use Evaluation Tool**:  Cocktail includes a user-friendly evaluation tool, simplifying the process of assessing various IR models on the benchmarked dataset. This tool is designed with adaptability, allowing for seamless integration of new models and datasets, thereby enabling researchers and developers to efficiently evaluate the performance and bias of their IR systems.
 
 
 ## File Structure
@@ -37,7 +37,7 @@ Cocktail, a comprehensive benchmark designed to evaluate Information Retrieval (
 
 ## Quick Start
 
-We provide the detail scripts for all the benchmarked models in the folder ``benchmark/shell ``. Using neural retrieval models as an example, you can quickly and easily reproduce our results using the following scripts:
+We provide the detail scripts for all the benchmarked models in the folder ``benchmark/shell``. Using neural retrieval models as an example, you can quickly and easily reproduce our results using the following scripts:
 ```shell
 GPU=0
 batch_size=128
