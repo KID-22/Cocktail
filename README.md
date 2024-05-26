@@ -134,7 +134,7 @@ We also provide some checkpoints trained with ``train_msmarco_v3.py`` in [BEIR](
 | robreta-base-weightedmean-v3-msmarco      | roberta-base       |   weighted-mean  | [Link](https://huggingface.co/IR-Cocktail/roberta-base-weightedmean-v3-msmarco)      |
 
 ## Reference
-The Cocktail benchmark is built based on the following project:
+The Cocktail benchmark is built based on the following projects:
 - [BEIR](https://github.com/beir-cellar/beir)
 - [Sentence Transformers](https://huggingface.co/sentence-transformers)
 
