@@ -142,7 +142,7 @@ The Cocktail benchmark is built based on the following project:
 ## Citation
 If you find our benchmark or work useful for your research, please cite our work.
 ```
-@article{cocktail,
+@article{dai2024cocktail,
   title={Cocktail: A Comprehensive Information Retrieval Benchmark with LLM-Generated Documents Integration},
   author={Dai, Sunhao and Liu, Weihao and Zhou, Yuqi and Pang, Liang and Ruan, Rongju and Wang, Gang and Dong, Zhenhua and Xu, Jun and Wen, Ji-Rong},
   journal={Findings of the Association for Computational Linguistics: ACL 2024},
