@@ -5,6 +5,9 @@
 
 # Cocktail: A Comprehensive Information Retrieval Benchmark with LLM-Generated Documents Integration
 
+**🌟Paper (Findings of ACL 2024)🌟**: http://arxiv.org/abs/2405.16546  
+**🌟Datasets and Checkpoints🌟**: https://huggingface.co/IR-Cocktail
+
 ## Introduction
 Cocktail, a comprehensive benchmark designed to evaluate Information Retrieval (IR) models amidst the evolving landscape of AI-generated content (AIGC). In an era dominated by Large Language Models (LLMs), the traditional IR corpus, previously solely composed of human-written texts, has expanded to include a significant proportion of LLM-generated content. Cocktail emerges as a valuable resource to response to this transformation, aiming to provide a robust framework for assessing the performance and bias of IR models in handling mixed corpora in this LLM era.
 
