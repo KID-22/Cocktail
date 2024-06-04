@@ -1,4 +1,4 @@
-for dataset in "msmarco" "dl19" "dl20" "trec-covid" "nfcorpus" "nq" "hotpotqa" "fiqa" "webis-touche2020" "cqadupstack" "dbpedia-entity" "scidocs" "fever" "climate-fever" "nq-utd"
+for dataset in "msmarco" "dl19" "dl20" "trec-covid" "nfcorpus" "nq" "hotpotqa" "fiqa" "webis-touche2020" "cqadupstack" "dbpedia-entity" "scidocs" "fever" "climate-fever" "scifact" "nq-utd"
 do
     for model in "bm25"
     do
